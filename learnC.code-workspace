@@ -6,7 +6,8 @@
   ],
   "settings": {
     "files.associations": {
-      "*.snippet": "c"
+      "*.snippet": "c",
+      "stdio.h": "c"
     }
   }
 }
