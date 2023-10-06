@@ -1,12 +1,16 @@
 #include <stdio.h>
 
+int Plus_num(int y, int x){
+    int c = 0;
+    c = x - y;
+    return c;
+}
+
 int main()
 {
-    int distance;
+    int x = 5, y = 10;
 
-    distance = 700;
-
-    printf("You are %d km. away. \n", distance);
+    printf("%d", Plus_num(x, y));
 
     return 0;
 }

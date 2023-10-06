@@ -23,10 +23,12 @@ int main(int argc, char *argv[]){
             printf("You fail\n");
         }
     }
+    
     int i = 0;
     for(i=0; i < argc; i++){
         printf("argc %d : %s\n", i, argv[i]);
     }
+    
 
     return 0;
 }

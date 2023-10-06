@@ -27,6 +27,8 @@ int main(int argc, char *argv[]){
     printf("My storage size is %lld GByte\n", storage);
 
     printf("0.25 is 25%%\n");
+    
+    
 
     //การบ้าน :ให้ไปลองใช้ unsigned int, float, bouble ดู
 
